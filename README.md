@@ -15,6 +15,7 @@ https://docs.layerzero.network/v2
 
 
 ## 安装步骤
+```sh
 使用layerZero
 这是将消息从某链传递到某链去的dapp
 我们先使用arb sepolia与base sepolia将eth桥接到arb sepolia与base sepolia网络去
@@ -124,6 +125,8 @@ info:      Transaction hash: 0x7e85d7b647224d9257314adf047c4986bacd95dd54b50e3af
 info:    Waiting for transaction confirmation...
 info:      Gas used: 225604
 info:      Block number: 233379354
+```
 info:    ✅ SENT_VIA_OAPP: Successfully sent "Hello from Arbitrum Sepolia" from arbitrum-sepolia to basesep-testnet
 info:    ✅ TX_HASH: Block explorer link for source chain arbitrum-sepolia: https://sepolia.arbiscan.io/tx/0x7e85d7b647224d9257314adf047c4986bacd95dd54b50e3afa576ada6c9fdc84
 info:    ✅ EXPLORER_LINK: LayerZero Scan link for tracking cross-chain delivery: https://testnet.layerzeroscan.com/tx/0x7e85d7b647224d9257314adf047c4986bacd95dd54b50e3afa576ada6c9fdc84
+
