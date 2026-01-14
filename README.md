@@ -29,7 +29,7 @@ corepack enable
 # 安装最新版 pnpm
 corepack prepare pnpm@latest --activate
 
-
+#初始化项目工程
 npx create-lz-oapp@latest --example oapp
 pnpm install
 然后执行pnpm approve-builds
@@ -129,5 +129,6 @@ info:    ✅ SENT_VIA_OAPP: Successfully sent "Hello from Arbitrum Sepolia" from
 info:    ✅ TX_HASH: Block explorer link for source chain arbitrum-sepolia: https://sepolia.arbiscan.io/tx/0x7e85d7b647224d9257314adf047c4986bacd95dd54b50e3afa576ada6c9fdc84
 info:    ✅ EXPLORER_LINK: LayerZero Scan link for tracking cross-chain delivery: https://testnet.layerzeroscan.com/tx/0x7e85d7b647224d9257314adf047c4986bacd95dd54b50e3afa576ada6c9fdc84
 ```
+
 
 
